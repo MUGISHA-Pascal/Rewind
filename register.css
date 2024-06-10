@@ -1,0 +1,67 @@
+body {
+  font-family: roboto;
+  background-color: black;
+}
+.signbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 180px;
+  background-color: #d9d9d9;
+  margin-right: 420px;
+  margin-left: 420px;
+  border-radius: 25px;
+  height: 370px;
+}
+p {
+  display: inline-block;
+}
+#username {
+  margin-left: 20px;
+  padding: 7px;
+  border-radius: 50px;
+  border: none;
+}
+#email {
+  margin-left: 52px;
+  padding: 7px;
+  border-radius: 50px;
+  border: none;
+}
+#age {
+  margin-left: 65px;
+  padding: 7px;
+  border-radius: 50px;
+  border: none;
+}
+#password {
+  margin-left: 21px;
+  padding: 7px;
+  border-radius: 50px;
+  border: none;
+}
+.signup {
+  margin-left: 0;
+}
+#submit {
+  background-color: black;
+  color: white;
+  padding: 7px;
+  font-size: 14px;
+  border: none;
+  width: 100px;
+  border-radius: 25px;
+}
+.member {
+  font-size: 13px;
+}
+.signin {
+  color: #615f5f;
+}
+.namep,
+.codep,
+.ps,
+.emailp {
+  padding-bottom: 40px;
+}

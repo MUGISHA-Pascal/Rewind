@@ -1,0 +1,67 @@
+body{
+   font-family:roboto;
+   background-color:black;
+}
+.links{
+    display:flex;
+    flex-direction:row;
+}
+.homed{
+    margin-right:35px;
+}
+.home,.logout{
+    text-decoration:none;
+    color:#d9d9d9;
+}
+.changebox{
+     background-color:#d9d9d9;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    margin-right:407px;
+    margin-left:407px;
+    margin-top: 57px;
+    border-radius:25px;
+    height:310px;p
+}
+p{
+    display:inline-block;
+}
+.changed{
+  margin-bottom:20px;
+margin-left:10px;
+}
+#username{
+    margin-left:10px;
+    padding:7px;
+    border-radius:50px;
+    border:none;
+    width:196px;
+    color:gray;
+}
+#email{
+    margin-left:42px;
+    padding:7px;
+    border-radius:50px;
+    border:none;
+    width:196px;
+    color:gray;
+}
+#age{
+    margin-left:54px;
+    padding:7px;
+    border-radius:50px;
+    border:none;
+    width:196px;
+    color:gray;
+}
+#submit{
+    background-color:black;
+    color:white;
+    padding:7px;
+    font-size:14px;
+    border:none;
+    width:70px;
+    border-radius:25px;
+}
